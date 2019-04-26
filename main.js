@@ -1,6 +1,4 @@
-var Money = 10
-
+var Money = 0;
 function moneyGet() {
-Money =+ 1
-  document.getElementById("output").innerHTML = ++Money;
+    document.getElementById("output").innerHTML = ++Money;
 }
